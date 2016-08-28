@@ -1,0 +1,9 @@
+version: '2'
+services:
+  php7:
+    build: docker/
+    image: rkl/php7
+    container_name: php7
+    ports:
+    - "80:80"
+
